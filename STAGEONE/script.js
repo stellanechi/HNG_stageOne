@@ -1,6 +1,6 @@
-const time = document.querySelector('[data-testid="currentUTCTime"]');
+const day = document.querySelector('[data-testid="currentDayOfTheWeek"]');
 
-console.log(time);
+console.log(day);
 
 const currentDate = new Date();
 
@@ -14,4 +14,4 @@ const daysOfWeek = [
   "Saturday",
 ];
 
-time.textContent = daysOfWeek[currentDate.getDay()];
+day.textContent = daysOfWeek[currentDate.getDay()];

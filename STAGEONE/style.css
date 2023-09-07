@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgb(63,14,64) ;
 }
 
 [data-testid="slackUserName"]{
@@ -25,10 +26,12 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
+  /* color: #fff; */
 }
 
 .box-body {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  background-color:rgb(255,255,255) ;
   padding: 70px;
   border-radius: 10px;
 }
