@@ -33,15 +33,16 @@ body{
   border-radius: 10px;
 }
 
-.duration {
+[data-testid="duration"] {
   display: flex;
-  margin: 0 5px;
- text-align: left;
+  text-align: left;
 }
 
-data {
+
+
+/* data {
   margin-left: 10px;
-}
+} */
 
 [ data-testid="myTrack"]{
     font-weight: bold;
